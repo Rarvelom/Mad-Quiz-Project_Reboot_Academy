@@ -1,0 +1,41 @@
+PREGUNTAS,OPCION A,OPCION B,OPCION C,OPCION D,RESPUESTA CORRECTA CON LA INFORMACION DE MANERA CORTA CON LO MÁS RELEVANTE.
+¿Qué microprocesador revolucionó la informática personal en 1978?,Intel 8086,AMD Ryzen,Motorola 68000,Zilog Z80,"A) Intel 8086: Fue el primer procesador de 16 bits de Intel, base para la arquitectura x86."
+¿Qué sistema operativo fue el primero en tener una interfaz gráfica comercial?,MS-DOS,Windows 1.0,Mac OS,Xerox Alto OS,"D) Xerox Alto OS: En 1973, desarrollado por Xerox PARC, precursor de las GUIs."
+¿Qué componente se considera el cerebro de un ordenador?,RAM,Fuente de alimentación,CPU,Disco duro,C) CPU: La Unidad Central de Procesamiento ejecuta las instrucciones del software.
+"¿Qué lenguaje fue base para C, C++ y Java?",BASIC,Python,Pascal,C,"D) C: Desarrollado en 1972 por Dennis Ritchie en Bell Labs, base de múltiples lenguajes."
+¿Qué tecnología permite ejecutar múltiples tareas al mismo tiempo en una CPU?,Multithreading,Compilación,Fragmentación,Caching,A) Multithreading: Permite ejecución concurrente de procesos.
+¿Qué es un sistema operativo?,Software para edición de videos,Hardware de red,Programa que gestiona el hardware y software,Placa base,C) Programa que gestiona el hardware y software: Interfaz entre usuario y máquina.
+¿Qué función cumple una GPU?,Gestión de RAM,Procesamiento gráfico,Enrutamiento de red,Control del sonido,B) Procesamiento gráfico: Acelera tareas visuales y cálculos masivos.
+¿Qué es un compilador?,Dispositivo físico,Traductor de código fuente a máquina,Navegador web,Sistema operativo,B) Traductor de código fuente a máquina: Convierte lenguajes de alto nivel en código ejecutable.
+¿Qué empresa desarrolló el primer microprocesador comercial?,IBM,Intel,Microsoft,HP,"B) Intel: En 1971 lanzó el Intel 4004, primer procesador comercial."
+¿Qué es un kernel?,Lenguaje de programación,Parte central del sistema operativo,Tipo de compilador,Herramienta de depuración,B) Parte central del sistema operativo: Gestiona recursos del sistema y comunicación con hardware.
+¿Cómo surgió el lenguaje Python?,Para inteligencia artificial,Por hobby universitario,Como sucesor de Java,Como proyecto educativo en Holanda,D) Como proyecto educativo en Holanda: Guido van Rossum lo creó en 1989 en el CWI.
+¿Cómo se comunicaban las primeras computadoras?,Con voz,Con tarjetas perforadas,Con redes inalámbricas,Con pantallas táctiles,B) Con tarjetas perforadas: Método usado para entrada y almacenamiento de datos en los años 40-60.
+¿Cómo se creó el chip del Intel 4004?,Por contrato con NASA,Para uso militar,Por encargo de calculadoras japonesas,Para computadoras de IBM,"C) Por encargo de calculadoras japonesas: Encargado por Busicom, lanzado en 1971."
+¿Cómo se desarrolló ARPANET?,Como red académica privada,Como proyecto comercial,Como sistema militar de defensa,Como red pública del MIT,C) Como sistema militar de defensa: Iniciado por el Departamento de Defensa de EE.UU. en 1969.
+¿Cómo surgió el concepto de sistema operativo?,Para controlar múltiples usuarios en terminales,Para editar imágenes,Como plataforma de videojuegos,Para redes sociales,A) Para controlar múltiples usuarios en terminales: Nació con mainframes en los 60.
+¿Cómo evolucionó la arquitectura x86?,Por necesidad de software libre,Por diseño modular de Apple,Por compatibilidad con versiones anteriores,Por demanda de videojuegos,C) Por compatibilidad con versiones anteriores: Intel mantuvo compatibilidad con el 8086.
+¿Cómo surgió Linux?,Versión de UNIX para IBM,Proyecto comercial de Sun,Proyecto de código abierto de Linus Torvalds,Adquisición de Red Hat,C) Proyecto de código abierto de Linus Torvalds: Comenzó en 1991 como alternativa gratuita.
+¿Cómo se mejoró el rendimiento de las memorias RAM modernas?,Aumentando su tamaño físico,Mediante controladores externos,Con tecnologías DDR y canal dual,Reduciendo el número de pines,C) Con tecnologías DDR y canal dual: Mejora el ancho de banda y velocidad.
+¿Cómo se creó el primer lenguaje de programación?,Para control de cohetes,Por necesidades militares,Para automatizar telares,Como experimento científico,C) Para automatizar telares: Ada Lovelace creó un algoritmo para la máquina de Babbage.
+¿Cómo se construyó el ENIAC?,Con componentes ópticos,Usando tarjetas perforadas,Con válvulas de vacío,Con chips de silicio,"C) Con válvulas de vacío: ENIAC (1945) usaba 18,000 válvulas para cálculos balísticos."
+¿Cuándo se lanzó el primer iPhone?,2004,2005,2007,2008,"C) 2007: Steve Jobs lo presentó el 9 de enero, revolucionando la telefonía."
+¿Cuándo se fundó Microsoft?,1970,1975,1980,1985,B) 1975: Fundada por Bill Gates y Paul Allen para desarrollar software para Altair.
+¿Cuándo surgió el primer lenguaje de programación moderno?,1940,1950,1960,1970,B) 1950: FORTRAN fue creado por IBM para computación científica.
+¿Cuándo apareció la World Wide Web?,1985,1989,1993,1995,B) 1989: Propuesta por Tim Berners-Lee en CERN.
+¿Cuándo se creó la primera computadora electrónica?,1945,1952,1936,1960,"A) 1945: ENIAC, considerada la primera computadora electrónica digital."
+¿Cuándo se lanzó el primer sistema Windows?,1985,1983,1990,1981,A) 1985: Windows 1.0 fue lanzado por Microsoft.
+¿Cuándo nació la arquitectura ARM?,1983,1985,1990,1995,B) 1985: Desarrollada por Acorn Computers en Reino Unido.
+¿Cuándo se lanzó el primer procesador de 64 bits para PC?,1999,2001,2003,2005,C) 2003: AMD lanzó el Opteron y Athlon 64.
+¿Cuándo comenzó el proyecto GNU?,1981,1983,1985,1987,B) 1983: Anunciado por Richard Stallman para crear software libre.
+¿Cuándo se creó la primera red de computadoras?,1965,1969,1972,1975,B) 1969: ARPANET conectó UCLA y Stanford.
+¿Quién es considerado el padre de la computación?,Bill Gates,Alan Turing,Charles Babbage,Linus Torvalds,C) Charles Babbage: Diseñó la máquina analítica en el siglo XIX.
+¿Quién inventó el transistor?,Einstein,Turing,"Shockley, Bardeen y Brattain",Jobs y Wozniak,"C) Shockley, Bardeen y Brattain: En 1947 en Bell Labs."
+¿Quién creó el lenguaje C?,Dennis Ritchie,Ken Thompson,Bill Gates,Tim Berners-Lee,A) Dennis Ritchie: Lo desarrolló en 1972.
+¿Quién inventó el primer compilador?,Ada Lovelace,Linus Torvalds,Grace Hopper,John von Neumann,C) Grace Hopper: En 1952 creó el primer compilador de alto nivel.
+¿Quién desarrolló Linux?,Richard Stallman,Guido van Rossum,Linus Torvalds,Dennis Ritchie,C) Linus Torvalds: Lo inició en 1991 como núcleo libre de sistema operativo.
+¿Quién creó la primera red de computadoras (ARPANET)?,Tim Berners-Lee,Vinton Cerf y Bob Kahn,Steve Jobs,Charles Babbage,B) Vinton Cerf y Bob Kahn: Creadores del protocolo TCP/IP y arquitectos de ARPANET.
+¿Quién diseñó la World Wide Web?,Bill Gates,Larry Page,Alan Turing,Tim Berners-Lee,D) Tim Berners-Lee: Propuso la web en 1989 trabajando en CERN.
+¿Quién lideró el desarrollo del primer microprocesador?,Steve Jobs,Marcian Hoff,Bill Gates,Andy Grove,B) Marcian Hoff: Diseñó el Intel 4004 en 1971.
+¿Quién fundó Apple?,Bill Gates,Tim Cook,Steve Jobs y Steve Wozniak,Larry Page,C) Steve Jobs y Steve Wozniak: Fundaron Apple en 1976.
+¿Quién lideró el desarrollo de UNIX?,Linus Torvalds,Ken Thompson y Dennis Ritchie,Bill Gates,Tim Berners-Lee,B) Ken Thompson y Dennis Ritchie: Lo desarrollaron en Bell Labs en 1969.

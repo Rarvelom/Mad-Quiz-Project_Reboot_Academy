@@ -1,0 +1,87 @@
+# === TXT: Objetivo del juego ===
+# Archivo: objetivo_juego.txt
+
+"""
+Objetivo del Juego - Mad Quiz (Versión Básica)
+
+Mad Quiz es un juego educativo de preguntas y respuestas cuyo objetivo es combinar el aprendizaje con el entretenimiento. En esta versión básica, los jugadores pondrán a prueba sus conocimientos sobre la historia y el desarrollo tecnológico, respondiendo a preguntas de distintas categorías: "¿Qué?", "¿Cómo?", "¿Cuándo?" y "¿Quién?". Cada partida incluye preguntas aleatorias con cuatro opciones de respuesta. Al finalizar, se muestra el puntaje total y se brinda retroalimentación sobre cada respuesta.
+"""
+
+# === main.py: Código para los creadores del juego ===
+# Archivo: main.py
+
+def main():
+    print("=== MAD QUIZ - VERSION BÁSICA ===")
+    print("1. Jugar")
+    print("2. Salir")
+    choice = input("Selecciona una opción: ")
+
+    if choice == "1":
+        from game import jugar_partida
+        jugar_partida()
+    elif choice == "2":
+        print("Gracias por jugar Mad Quiz. Hasta la próxima!")
+    else:
+        print("Opción no válida. Intenta de nuevo.")
+
+if __name__ == "__main__":
+    main()
+
+# === GAME.PY: Lógica del jugador ===
+# Archivo: game.py
+
+import csv
+import random
+
+def cargar_preguntas():
+    preguntas = []
+    with open("data/preguntas.csv", newline='', encoding='utf-8') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            preguntas.append({
+                "pregunta": row[0],
+                "opciones": [row[1], row[2], row[3], row[4]],
+                "respuesta": row[5]
+            })
+    return preguntas
+
+def jugar_partida():
+    preguntas = cargar_preguntas()
+    seleccionadas = random.sample(preguntas, 3)
+    puntaje = 0
+
+    for i, p in enumerate(seleccionadas, start=1):
+        print(f"\nPregunta {i}: {p['pregunta']}")
+        for idx, op in enumerate(p['opciones'], start=1):
+            print(f"{chr(64+idx)}) {op}")
+
+        respuesta_usuario = input("Tu respuesta (A/B/C/D): ").upper()
+        correcta = p['respuesta'][0]  # Primera letra de la respuesta
+
+        if respuesta_usuario == correcta:
+            print("✔ Correcto!")
+            puntaje += 1
+        else:
+            print(f"✘ Incorrecto. La respuesta correcta era {correcta}) {p['respuesta'][3:]}")
+
+    print(f"\nTu puntaje final fue: {puntaje}/3")
+
+# === CSV: Preguntas ===
+# Archivo: data/preguntas.csv
+
+"""
+Formato:
+Columna A: Pregunta
+Columna B: Opcion A
+Columna C: Opcion B
+Columna D: Opcion C
+Columna E: Opcion D
+Columna F: Respuesta correcta (Ej: "A) Alan Turing")
+
+Ejemplo de contenido inicial:
+
+¿Qué es un procesador?,Unidad de entrada,Unidad de salida,Unidad de procesamiento principal,Disco duro,C) Unidad de procesamiento principal
+¿Cómo funciona la memoria RAM?,Almacena datos permanentemente,Procesa gráficos 3D,Guarda datos temporalmente para acceso rápido,Transfiere archivos por la red,C) Guarda datos temporalmente para acceso rápido
+¿Cuándo se lanzó el primer microprocesador?,1970,1981,1965,1990,A) 1970
+¿Quién desarrolló el lenguaje Python?,Dennis Ritchie,Guido van Rossum,James Gosling,Bjarne Stroustrup,B) Guido van Rossum
+"""

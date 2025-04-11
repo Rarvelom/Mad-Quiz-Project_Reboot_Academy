@@ -1,0 +1,57 @@
+No external libraries required
+colorama==0.4.6
+pyfiglet==1.0.2
+rich==13.7.0
+pytimer==0.4.0
+termcolor==2.2.0
+pytest==7.2.2  # if you're using pytest for testing
+
+pip install colorama
+
+from colorama import Fore
+
+print(Fore.GREEN + "Correct!" + Fore.RESET)  # Green for correct answers
+print(Fore.RED + "Wrong!" + Fore.RESET)  # Red for wrong answers
+
+pip install pyfiglet
+
+import pyfiglet
+
+ascii_banner = pyfiglet.figlet_format("Mad Quiz")
+print(ascii_banner)
+
+pip install rich
+
+from rich.console import Console
+console = Console()
+console.print("Correct Answer!", style="bold green")
+
+pip install pytimer
+
+from pytimer import Timer
+
+def timeout():
+    print("Time's up!")
+
+timer = Timer(seconds=10, function=timeout)
+timer.start()
+timer.stop()
+
+import csv
+
+with open('questions.csv', mode='r') as file:
+    reader = csv.reader(file)
+    questions = list(reader)
+
+pip install termcolor
+
+
+ Steps to Create requirements.txt
+
+    Install the libraries you need via pip install.
+
+    Once installed, run the following to generate requirements.txt:
+
+pip freeze > requirements.txt
+
+This will create a text file listing all libraries in your environment.

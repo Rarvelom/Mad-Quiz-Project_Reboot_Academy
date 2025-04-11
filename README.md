@@ -43,3 +43,53 @@ Understand basic game logic and scoring systems.
 
 Gain experience working with console I/O and simple timing mechanics.
 
+**🔧 Project Setup**
+
+ Initialize Python project folder structure
+
+ Create main Python script (main.py)
+
+ Set up virtual environment (optional)
+
+ Create README file with project description
+
+**🧠 Game Logic Design**
+
+ Define the structure for storing questions and answers (e.g., dictionary or list of dictionaries)
+
+ Plan the game flow (intro, question loop, scoring, final result)
+
+ Decide on scoring rules (e.g., 1 point per correct answer, bonus for speed?)
+
+**💬 User Interaction**
+
+ Display welcome message and instructions in the console
+
+ Prompt user input for each question
+
+ Validate user answers and give feedback
+
+**⌛ Optional Features**
+
+ Implement a timer for each question using time module
+
+ Randomize question order using random.shuffle()
+
+ Add a score summary at the end of the game
+
+**📦 Content Creation**
+
+ Create a basic question bank (5–10 questions minimum)
+
+ Store questions directly in code (initial version)
+
+ Optionally plan for external question loading (e.g., JSON or CSV in future)
+
+**🧪 Testing**
+
+ Test the game flow with mock data
+
+ Handle invalid inputs gracefully
+
+ Check score tracking accuracy
+

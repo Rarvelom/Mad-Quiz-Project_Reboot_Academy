@@ -1,5 +1,6 @@
 # Mad-Quiz-Project_Reboot_Academy
 A quiz-style game like Kahoot where the goal is to answer as many questions correctly as possible
+
 **Project Description:**
 This project is a Python-based console application that simulates a quiz-style game. Inspired by platforms like Kahoot!, it challenges users to answer as many questions correctly as possible within a limited time, directly from the command line.
 

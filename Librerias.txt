@@ -26,7 +26,7 @@ from rich.console import Console
 console = Console()
 console.print("Correct Answer!", style="bold green")
 
-pip install pytimer
+pip install rich
 
 from pytimer import Timer
 

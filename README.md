@@ -93,8 +93,6 @@ Gain experience working with console I/O and simple timing mechanics.
 
  Check score tracking accuracy
 
-** CREADORES **
-
 Alexander Murfitt
 
 Ricardo Arvelo
